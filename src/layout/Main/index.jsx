@@ -31,14 +31,7 @@ export default class Main extends React.Component {
         return (
             <main className="container content">
                 <Search searchMovies={this.searchMovies} />
-                {loading.length ?
-                    (
-                        <Preloader />
-                    ) :
-                    (
-                        <Movies movies={movies} />
-                    )
-                }
+                {loading.length ? (<Preloader />) : (<Movies movies={movies} />)}
             </main>
         );
     }
