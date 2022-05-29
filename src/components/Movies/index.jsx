@@ -8,7 +8,8 @@ export function Movies ({
             {movies.map(movie => (
                 <Movie 
                     key={movie.imdbID}
-                    {...movie} />
+                    {...movie} 
+                />
             ))}
         </div>
     );
