@@ -1,9 +1,14 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 
 export default class Search extends React.Component {
     state = {
         search: '',
+    };
+
+    handleKey = (event) => {
+        if (event.key === 'Enter') {
+            this.props.searchMovies(this.state.search);
+        }
     }
 
     handleChange = (event) => {
@@ -22,7 +27,14 @@ export default class Search extends React.Component {
                         className="validate"
                         value={this.state.search}
                         onChange={this.handleChange}
+                        onKeyDown={this.handleKey}
                     />
+                    <button
+                        className="btn search-btn"
+                        onClick={() => this.props.searchMovies(this.state.search)}
+                    >
+                        Search
+                    </button>
                 </div>
             </div>
         );
