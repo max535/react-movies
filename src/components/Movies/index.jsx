@@ -1,16 +1,16 @@
 import { Movie } from "./Movie";
 
-export function Movies ({
-    movies
+export function Movies({
+    movies = []
 }) {
     return (
         <div className="movies">
-            {movies.map(movie => (
-                <Movie 
+            {movies.length ? movies.map(movie => (
+                <Movie
                     key={movie.imdbID}
-                    {...movie} 
+                    {...movie}
                 />
-            ))}
+            )) : <h4>Nothing found</h4>}
         </div>
     );
 }
