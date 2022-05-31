@@ -12,7 +12,11 @@ export function Main() {
 
     const searchMovies = (str, type = 'all') => {
         setLoading(true);
-        fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${str}${type !== 'all' ? `&type=${type}` : ''}`)
+        fetch(
+            `https://www.omdbapi.com/?apikey=${API_KEY}&s=${str}${
+                type !== 'all' ? `&type=${type}` : ''
+            }`
+        )
             .then(response => response.json())
             .then(data => {
                 setMovies(data.Search);
