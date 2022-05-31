@@ -9,5 +9,4 @@
 + yarn start
 
 
-#### Рабочую версию приложения можно посмотреть на 
-max535.github.io/react-movies/
+#### Рабочую версию приложения можно посмотреть на https://max535.github.io/react-movies/
