@@ -22,19 +22,19 @@ export function Main() {
                 console.error(err);
                 setLoading(false);
             });
-    }
+    };
 
     useEffect(() => {
-    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=matrix`)
-        .then(response => response.json())
-        .then(data => {
-            setMovies(data.Search);
-            setLoading(false);
-        })
-        .catch((err) => {
-            console.error(err);
-            setLoading(false);
-        });
+        fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=matrix`)
+            .then(response => response.json())
+            .then(data => {
+                setMovies(data.Search);
+                setLoading(false);
+            })
+            .catch((err) => {
+                console.error(err);
+                setLoading(false);
+            });
     }, []);
 
 
