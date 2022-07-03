@@ -6,8 +6,6 @@
 
 https://user-images.githubusercontent.com/49311021/177059679-e4893296-fa8a-47d0-bcd4-75b9e9074fed.mov
 
-![react-movies-MOV](https://user-images.githubusercontent.com/49311021/177059679-e4893296-fa8a-47d0-bcd4-75b9e9074fed.gif)
-
 <h3>Технологии проекта</h3>
 <p>
   <img alt="React" src="https://shields.io/badge/-React-282c34?logo=react&style=for-the-badge" />
