@@ -6,7 +6,7 @@
 
 https://user-images.githubusercontent.com/49311021/177059679-e4893296-fa8a-47d0-bcd4-75b9e9074fed.mov
 
-![react-movies](https://user-images.githubusercontent.com/49311021/177059679-e4893296-fa8a-47d0-bcd4-75b9e9074fed.mov)
+![react-movies-MOV](https://user-images.githubusercontent.com/49311021/177059679-e4893296-fa8a-47d0-bcd4-75b9e9074fed.mov)
 
 <h3>Технологии проекта</h3>
 <p>
