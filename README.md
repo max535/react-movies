@@ -14,6 +14,8 @@ https://user-images.githubusercontent.com/49311021/177059679-e4893296-fa8a-47d0-
   <img alt="html5" src="https://shields.io/badge/-HTML5-E34F26?logo=html5&style=for-the-badge&logoColor=fff" />
   <img alt="yarn" src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" />
   <img alt="css" src="https://shields.io/badge/-CSS3-1572B6?logo=css3&style=for-the-badge&logoColor=fff" />
+  <img alt="material" src="https://www.svgrepo.com/show/354047/materializecss.svg" />
+
 </p>
 
 ## Запуск проекта ⏯
